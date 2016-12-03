@@ -34,7 +34,7 @@
 		  <a class="btn" href="#">Подробнее</a>
           <a class="btn" href="#">Купить</a>
 		  <b>150 Р.</b>
-		</div>  
+	</div>  
 	<div class="item-new">
 		  <h3>Романтик</h3>
 		<div class="parametr"
@@ -46,9 +46,7 @@
 		  <a class="btn" href="#">Подробнее</a>
           <a class="btn" href="#">Купить</a>
 		  <b>90 Р.</b>
-		</div>  	
-		</div>
-	 </div>
+	  </div>
 	  <div class="features">
       <ul>
         <li class="feature-item">
@@ -124,15 +122,14 @@
         </tr>
         <tr>
           
-          <td>Вахтер новинка</td>
+          <td>Вахтёр<sup>новинка</sup></td>
           <td> <1% </td>
           <td>35</td>
           <td>0,5 л.</td>
           <td>150 Р.</td>
         </tr>
         <tr>
-          
-          <td>Стилист новинка</td>
+          <td>Романтик<sup>новинка</sup></td>
           <td><0,5%</td>
           <td> 27 </td>
           <td>0,5 л.</td>
@@ -140,9 +137,49 @@
         </tr>
       </table>
     </div>
-		  
-		  </table>
-	  </div>
+	
+	<div class="feedback">
+	  <h2>Заказать</h2>
+	  <p>Не ждите, пока нас отрекламируют, как Вятский квас, и мы поднимим цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 бареллей - скидка 10%! </p>
+	   <form class="feedback-form" action="/keksby-mail" method="post">
+        <div class="feedback-form-group">
+          <label for="fullname">Представьтесь, пожалуйста:</label>
+          <input type="text" name="fullname" id="fullname">
+        </div>
+        <div class="feedback-form-group">
+          <label for="phone">Номер телефона:</label>
+          <input type="text" name="phone" id="phone">
+        </div>
+		 <div class="feedback-form-group">
+          <label for="dop-phone">Доп.номер:</label>
+          <input type="text" name="dop-phone" id="dop-phone">
+        </div>
+        <div class="feedback-form-group">
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email">
+        </div>
+        
+        <div class="feedback-form-group">
+          <label for="topic">Объем заказа:</label>
+          <select name="topic" id="topic">
+            <option value="1">От 5 до 10 бареллей в неделю</option>
+            <option value="2">От 5 до 10 бареллей в неделю</option>
+            <option value="3">От 5 до 10 бареллей в неделю</option>
+          </select>
+        </div>
+        <div class="feedback-form-group">
+          <label for="message">Доп.комментарий:</label>
+          <textarea style="height:150px; width:800px; name="message" id="message"></textarea>
+        </div>
+        <div class="checkbox-area">
+          <label>
+            <input type="checkbox" name="subscription">
+            Я согласен получать квасную рассылку:
+          </label>
+		</div>
+		<input type="submit" class="btn" value="Отправить заказ">
+      </form>
+	</div>
 		03122016
   </body>
 </html>
